@@ -13,9 +13,9 @@
 	<artifactId>RetailStore</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>RetailStore</name>
-	<description>Demo project for Spring Boot</description>
+	<description>App Spring Boot</description>
 	<properties>
-		<java.version>20</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
