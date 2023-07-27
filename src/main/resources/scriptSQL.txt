@@ -1,0 +1,25 @@
+CREATE Table users
+(
+	username varchar(50) PRIMARY KEY,
+	password varchar(500) NOT NULL,
+	enabled BOOLEAN NOT NULL
+
+);
+
+CREATE Table authorities
+(
+	id SERIAL PRIMARY KEY,
+	username varchar(50) NOT NULL,
+	authority varchar(50) NOT NULL,
+	CONSTRAINT fk_username FOREIGN KEY(username) REFERENCES users(username) ON DELETE CASCADE
+
+);
+
+CREATE Table customer
+(
+	id SERIAL PRIMARY KEY,
+	username varchar(50) NOT NULL,
+	password varchar(500) NOT NULL,
+	role varchar(50) NOT NULL
+
+);
