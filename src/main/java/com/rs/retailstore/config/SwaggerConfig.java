@@ -15,7 +15,7 @@ public class SwaggerConfig {
 
 	@Bean
 	public Docket createApiDocket() {
-		return new Docket(DocumentationType.SWAGGER_2).apiInfo(getApiInfor())
+		return new Docket(DocumentationType.OAS_30).apiInfo(getApiInfor())
 				.select()
 				.apis(RequestHandlerSelectors.basePackage("com.rs.retailstore.controller"))
 				.paths(PathSelectors.any())
