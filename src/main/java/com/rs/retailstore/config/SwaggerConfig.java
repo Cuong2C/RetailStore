@@ -1,5 +1,7 @@
 package com.rs.retailstore.config;
 
+import java.util.Set;
+
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -19,7 +21,8 @@ public class SwaggerConfig {
 				.select()
 				.apis(RequestHandlerSelectors.basePackage("com.rs.retailstore.controller"))
 				.paths(PathSelectors.any())
-				.build();
+				.build()
+				.protocols(Set.of("http","https"));
 	}
 
 	private ApiInfo getApiInfor() {
