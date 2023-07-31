@@ -10,9 +10,9 @@ Web browser (recommended: Google Chrome, Mozilla Firefox)
 Installation
 Clone the project from GitHub: https://github.com/Cuong2C/RetailStore.git
 
-Access the application on a web browser (deloyed sever):  https://retailstore-production.up.railway.app/RetailStore 
+Access the application on a web browser (deloyed sever):  https://retailstorebe-production.up.railway.app/RetailStore
 
-                                             on Swagger:  https://retailstore-production.up.railway.app/RetailStore/swagger-ui/index.html
+                                             on Swagger:  https://retailstorebe-production.up.railway.app/RetailStore/swagger-ui/index.html
                                              
                                               Localhost:  http://localhost:8080/RetailStore
 											  
